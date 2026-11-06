@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jueguitos uy uy que padres | El portal gamer definitivo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <a href="#inicio" class="logo-esquina">
+      <img id="logo" src="IMAGENES/logo.png" alt="Logo de Jueguitos uy uy que padres: personaje kawaii con audífonos y control">
+    </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-boton" aria-label="Abrir menú">☰</label>
+    <nav class="menu" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#clasicos">Clásicos</a>
+      <a href="#nuevos">Nuevos</a>
+      <a href="#sorpresa">Juego Aleatorio</a>
+      <a href="#comunidad">Comunidad</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero">
+      <div class="hero-texto">
+        <h1>Jueguitos, <span>uy uy que padres</span></h1>
+        <p>Tu rinconcito kawaii para descubrir videojuegos de todas las épocas: desde los arcades legendarios hasta los lanzamientos más potentes.</p>
+        <div class="hero-botones">
+          <a class="boton-primario" href="#clasicos">Ver clásicos</a>
+          <a class="boton-secundario" href="#nuevos">Ver nuevos</a>
+          <a class="boton-destacado" href="#sorpresa">🎲 Sorpréndeme</a>
+        </div>
+      </div>
+      <img class="hero-img" src="IMAGENES/control.svg" alt="Control de videojuegos kawaii blanco con botones rosas y turquesa">
+    </section>
+
+    <!-- WIDGET INTERACTIVO: JUEGO SORPRESA -->
+    <section id="sorpresa" class="seccion destacado-box">
+      <h2>✨ ¿No sabes qué jugar hoy? ✨</h2>
+      <p class="centrado">¡Haz clic abajo para recibir una recomendación aleatoria de nuestro catálogo!</p>
+      <div class="card-sorpresa" id="card-sorpresa">
+        <h3 id="sorpresa-titulo">🎮 Presiona el botón para descubrir</h3>
+        <p id="sorpresa-desc" class="dato">¡Tu próxima aventura te espera!</p>
+        <button class="boton-primario" id="btn-sorpresa">¡Obtener juego al azar! 🎲</button>
+      </div>
+    </section>
+
+   <!-- SECCIÓN CLÁSICOS -->
+    <section id="clasicos" class="seccion">
+      <h2>Clásicos que no mueren</h2>
+      <div class="juegos">
+        <article class="juego">
+          <span class="badge">★ 4.9</span>
+          <img src="IMAGENES/Juego1.svg" alt="Portada de Super Mario Bros.">
+          <h3>Super Mario Bros.</h3>
+          <p class="dato">1985 · NES</p>
+          <p>El fontanero que inició la era de las plataformas modernas.</p>
+        </article>
+        <article class="juego">
+          <span class="badge">★ 4.8</span>
+          <img src="IMAGENES/Juego2.svg" alt="Portada de Tetris">
+          <h3>Tetris</h3>
+          <p class="dato">1984 · Multiplataforma</p>
+          <p>Acomoda bloques en el rompecabezas más adictivo y famoso del mundo.</p>
+        </article>
+        <article class="juego">
+          <span class="badge">★ 4.7</span>
+          <img src="IMAGENES/Juego3.svg" alt="Portada de Pac-Man">
+          <h3>Pac-Man</h3>
+          <p class="dato">1980 · Arcade</p>
+          <p>Come puntos, evade a los fantasmitas y rompe tu propio récord.</p>
+        </article>
+        <article class="juego">
+          <span class="badge">★ 5.0</span>
+          <img src="IMAGENES/Juego4.svg" alt="Portada de The Legend of Zelda">
+          <h3>The Legend of Zelda</h3>
+          <p class="dato">1986 · NES</p>
+          <p>Aventura, acertijos y exploración pura para salvar el reino de Hyrule.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECCIÓN NUEVOS -->
+    <section id="nuevos" class="seccion alterna">
+      <h2>Los más nuevos y populares</h2>
+      <div class="juegos">
+        <article class="juego">
+          <span class="badge">★ 4.9</span>
+          <img src="IMAGENES/Juego5.svg" alt="Portada de Minecraft">
+          <h3>Minecraft</h3>
+          <p class="dato">2011 · PC & Consolas</p>
+          <p>Construye, explora y sobrevive en un universo infinito de cubos.</p>
+        </article>
+        <article class="juego">
+          <span class="badge">★ 4.6</span>
+          <img src="IMAGENES/Juego6.svg" alt="Portada de Fortnite">
+          <h3>Fortnite</h3>
+          <p class="dato">2017 · Multiplataforma</p>
+          <p>Battle royale masivo con construcción, skins y eventos en vivo.</p>
+        </article>
+        <article class="juego">
+          <span class="badge">★ 4.9</span>
+          <img src="IMAGENES/Juego7.svg" alt="Portada de Hades">
+          <h3>Hades</h3>
+          <p class="dato">2020 · PC & Consolas</p>
+          <p>Escapa del inframundo en un frenético roguelike lleno de estilo visual.</p>
+        </article>
+        <article class="juego">
+          <span class="badge">★ 4.8</span>
+          <img src="IMAGENES/Juego8.svg" alt="Portada de Hollow Knight">
+          <h3>Hollow Knight</h3>
+          <p class="dato">2017 · PC & Consolas</p>
+          <p>Metroidvania indie desafiante en un vasto e inolvidable reino de insectos.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- COMUNIDAD Y FORMULARIO -->
+    <section id="comunidad" class="seccion alterna">
+      <h2>Únete a la comunidad gamer</h2>
+      <p class="centrado">Cuéntanos cuál es tu juego preferido de la infancia o del momento y aparece en nuestro muro.</p>
+
+      <!-- MURO DE RESEÑAS -->
+      <div class="muro-resenas">
+        <div class="resena-card">
+          <p class="resena-autor"><strong>@PixelGamer</strong> dijo:</p>
+          <p class="resena-texto">"¡Zelda Ocarina of Time siempre será mi número 1 absoluto!"</p>
+        </div>
+        <div class="resena-card">
+          <p class="resena-autor"><strong>@KawaiiPlayer</strong> dijo:</p>
+          <p class="resena-texto">"Me encanta el diseño turquesa y rosa de esta página, uy uy que padre 💖"</p>
+        </div>
+      </div>
+
+      <form class="formulario" action="#" method="post">
+        <label for="nombre">Tu nombre o apodo gamer</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Player 1" required>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+
+        <label for="favorito">Juego favorito y recomendación</label>
+        <textarea id="favorito" name="favorito" rows="3" placeholder="Cuéntanos por qué te encanta este juego..." required></textarea>
+
+        <button class="boton-primario" type="submit">Enviar mi reseña ♥</button>
+      </form>
+
+      <div class="enlaces-externos">
+        <a class="boton-secundario" href="https://store.steampowered.com" target="_blank" rel="noopener">Explorar en Steam ↗</a>
+        <a class="boton-secundario" href="https://www.nintendo.com" target="_blank" rel="noopener">Sitio de Nintendo ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>♥ Jueguitos uy uy que padres ♥</p>
+    <p class="pie-sub">Creado con pasión por y para gamers de todas las épocas.</p>
+    <p>
+      <a href="https://www.twitch.tv" target="_blank" rel="noopener">Twitch</a> · 
+      <a href="https://www.youtube.com" target="_blank" rel="noopener">YouTube</a> · 
+      <a href="#inicio">Volver arriba ↑</a>
+    </p>
+  </footer>
+
+  <script>
+    // Script Generador de Juego Aleatorio
+    const juegosLista = [
+      { titulo: "Super Mario World (1990)", desc: "El rey de las plataformas en SNES con Yoshi por primera vez." },
+      { titulo: "Street Fighter II (1991)", desc: "El juego de peleas que definió un género entero en las maquinitas." },
+      { titulo: "Elden Ring (2022)", desc: "Exploración libre y desafíos épicos en las Tierras Intermedias." },
+      { titulo: "Stardew Valley (2016)", desc: "Relájate cultivando, pescando y haciendo amigos en el campo." },
+      { titulo: "Chrono Trigger (1995)", desc: "Viajes en el tiempo y batallas inolvidables en un RPG legendario." }
+    ];
+
+    document.getElementById('btn-sorpresa').onclick = () => {
+      const azar = juegosLista[Math.floor(Math.random() * juegosLista.length)];
+      document.getElementById('sorpresa-titulo').textContent = "🎮 " + azar.titulo;
+      document.getElementById('sorpresa-desc').textContent = azar.desc;
+    };
+  </script>
+</body>
+</html>
